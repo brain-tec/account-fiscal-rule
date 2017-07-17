@@ -1,8 +1,8 @@
-# -*- encoding: utf-8 -*-
+# coding: utf-8
 ###############################################################################
 #
 #   account_fiscal_position_rule_stock for OpenERP
-#   Copyright (C) 2009-TODAY Akretion <http://www.akretion.com>
+#   Copyright (C) 2009 Akretion <http://www.akretion.com>
 #     @author Renato Lima <renato.lima@akretion.com>
 #   This program is free software: you can redistribute it and/or modify
 #   it under the terms of the GNU Affero General Public License as
@@ -21,22 +21,23 @@
 
 {
     'name': 'Account Fiscal Position Rule Stock',
-    'version': '1.1',
+    'version': '8.0.1.0.0',
     'category': 'Generic Modules/Accounting',
-    'description': """Include a rule to decide the correct
-    fiscal position for Stock""",
     'author': "Akretion,Odoo Community Association (OCA)",
     'license': 'AGPL-3',
     'website': 'http://www.akretion.com',
     'depends': [
         'account_fiscal_position_rule',
-        'stock',
+        'stock_account',
     ],
     'data': [
-        'stock_view.xml',
-        'security/account_fiscal_position_rule_security.xml',
+        'views/stock_picking.xml',
         'security/ir.model.access.csv',
     ],
-    'demo': [],
-    'installable': False,
+    'test': [
+        'tests/account_fiscal_position_rule_stock_test.yml',
+        'tests/sale_order_test.yml',
+        'tests/invoice_from_picking_test.yml'
+    ],
+    'installable': True,
 }
