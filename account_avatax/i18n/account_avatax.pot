@@ -193,6 +193,11 @@ msgid "Cancel"
 msgstr ""
 
 #. module: account_avatax
+#: model:ir.model.fields,help:account_avatax.field_avalara_salestax__result_in_uppercase
+msgid "Check is address validation results desired to be in upper case"
+msgstr ""
+
+#. module: account_avatax
 #: model:ir.model.fields,help:account_avatax.field_avalara_salestax__disable_address_validation
 msgid "Check to disable address validation"
 msgstr ""
@@ -389,7 +394,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_avatax.field_res_partner__property_exemption_code_id
 #: model:ir.model.fields,field_description:account_avatax.field_res_users__property_exemption_code_id
 #: model:ir.ui.menu,name:account_avatax.menu_action_exemption_code_details
-#: model_terms:ir.ui.view,arch_db:account_avatax.exemption_code_form_view
+#: model_terms:ir.ui.view,arch_db:account_avatax.exemption_code_tree_view
 msgid "Exemption Code"
 msgstr ""
 
@@ -745,6 +750,11 @@ msgid "Require Validated Addresses"
 msgstr ""
 
 #. module: account_avatax
+#: model:ir.model.fields,field_description:account_avatax.field_avalara_salestax__result_in_uppercase
+msgid "Return validation results in upper case"
+msgstr ""
+
+#. module: account_avatax
 #: model:ir.model.fields.selection,name:account_avatax.selection__product_tax_code__type__service
 msgid "Service"
 msgstr ""
@@ -790,7 +800,7 @@ msgid "Tax Exemption"
 msgstr ""
 
 #. module: account_avatax
-#: model:ir.model.fields,field_description:account_avatax.field_account_move__shipping_add_id
+#: model:ir.model.fields,field_description:account_avatax.field_account_move__tax_address_id
 msgid "Tax Shipping Address"
 msgstr ""
 
