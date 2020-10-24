@@ -1,8 +1,7 @@
 {
-    "name": "Taxes using Avalara Avatax API",
-    "version": "13.0.3.0.0",
-    "author": "Open Source Integrators, Fabrice Henrion, Odoo SA,"
-    " Odoo Community Association (OCA)",
+    "name": "Avalara Avatax Connector",
+    "version": "13.0.3.1.0",
+    "author": "Fabrice Henrion, Odoo Community Association (OCA)",
     "summary": "Automatic Tax application using the Avalara Avatax Service",
     "license": "AGPL-3",
     "category": "Accounting",
