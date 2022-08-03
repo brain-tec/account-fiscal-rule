@@ -110,6 +110,21 @@ class AccountMove(models.Model):
         "Avatax API Response Log", readonly=True, copy=False
     )
 
+    @api.model
+    @api.depends("company_id")
+    def _compute_hide_exemption(self):
+        avatax_config = self.env.company.get_avatax_config_company()
+        for inv in self:
+            inv.hide_exemption = avatax_config.hide_exemption
+
+    hide_exemption = fields.Boolean(
+        "Hide Exemption & Tax Based on shipping address",
+        compute=_compute_hide_exemption,  # For past transactions visibility
+        default=lambda self: self.env.company.get_avatax_config_company,
+        help="Uncheck the this field to show exemption fields on SO/Invoice form view. "
+        "Also, it will show Tax based on shipping address button",
+    )
+
     @api.depends(
         "line_ids.debit",
         "line_ids.credit",
@@ -379,7 +394,7 @@ class AccountMove(models.Model):
                     line._origin.price_unit != line.price_unit
                     or line._origin.discount != line.discount
                     or line._origin.quantity != line.quantity
-                ):
+                ) and not line.display_type:
                     self.calculate_tax_on_save = True
                     break
 
