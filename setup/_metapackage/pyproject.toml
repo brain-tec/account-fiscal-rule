@@ -1,0 +1,11 @@
+[project]
+name = "odoo-addons-oca-account-fiscal-rule"
+version = "18.0.20250108.0"
+dependencies = [
+    "odoo-addon-account_avatax_oca==18.0.*",
+]
+classifiers=[
+    "Programming Language :: Python",
+    "Framework :: Odoo",
+    "Framework :: Odoo :: 18.0",
+]
