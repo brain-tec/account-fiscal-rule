@@ -22,7 +22,9 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_avatax_oca](account_avatax_oca/) | 18.0.1.1.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Compute Sales Tax using the Avalara Avatax Service
+[account_avatax_oca_log](account_avatax_oca_log/) | 18.0.1.0.0 |  | Add Logs to Avatax calls
 [account_avatax_sale_oca](account_avatax_sale_oca/) | 18.0.1.0.0 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Sales Orders with automatic Tax application using Avatax
+[account_fiscal_position_partner_type](account_fiscal_position_partner_type/) | 18.0.1.0.0 |  | Account Fiscal Position Partner Type
 
 [//]: # (end addons)
 
