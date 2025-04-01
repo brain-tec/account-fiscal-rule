@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-account-fiscal-rule Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-account_avatax_exemption_base>=15.0dev,<15.1dev',
         'odoo-addon-account_avatax_oca>=15.0dev,<15.1dev',
         'odoo-addon-account_avatax_sale_oca>=15.0dev,<15.1dev',
         'odoo-addon-account_fiscal_position_autodetect_optional_vies>=15.0dev,<15.1dev',
