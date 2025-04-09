@@ -28,7 +28,7 @@ addon | version | maintainers | summary
 [account_fiscal_position_partner_type](account_fiscal_position_partner_type/) | 15.0.1.0.0 |  | Account Fiscal Position Partner Type
 [account_fiscal_position_type](account_fiscal_position_type/) | 15.0.1.0.3 |  | Add sale / purchase type on fiscal position
 [account_multi_vat](account_multi_vat/) | 15.0.1.0.0 | [![ThomasBinsfeld](https://github.com/ThomasBinsfeld.png?size=30px)](https://github.com/ThomasBinsfeld) | Allows setting multiple VAT numbers on any partner and select the right one depending on the fiscal position and delivery address of the invoice.
-[l10n_eu_oss_oca](l10n_eu_oss_oca/) | 15.0.2.1.1 |  | L10n EU OSS OCA
+[l10n_eu_oss_oca](l10n_eu_oss_oca/) | 15.0.2.1.2 |  | L10n EU OSS OCA
 
 [//]: # (end addons)
 
