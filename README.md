@@ -27,7 +27,7 @@ addon | version | maintainers | summary
 [account_ecotax](account_ecotax/) | 17.0.1.1.1 | [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Ecotax Management: in French context is a 'cost' added to the sale price of electrical or electronic appliances or furnishing items
 [account_ecotax_sale](account_ecotax_sale/) | 17.0.1.0.1 | [![mourad-ehm](https://github.com/mourad-ehm.png?size=30px)](https://github.com/mourad-ehm) [![florian-dacosta](https://github.com/florian-dacosta.png?size=30px)](https://github.com/florian-dacosta) | Sale Ecotaxe
 [account_fiscal_position_autodetect_optional_vies](account_fiscal_position_autodetect_optional_vies/) | 17.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Account Fiscal Position Autodetect optional VIES
-[account_fiscal_position_partner_type](account_fiscal_position_partner_type/) | 17.0.1.0.0 |  | Account Fiscal Position Partner Type
+[account_fiscal_position_partner_type](account_fiscal_position_partner_type/) | 17.0.1.1.0 |  | Account Fiscal Position Partner Type
 [l10n_eu_oss_oca](l10n_eu_oss_oca/) | 17.0.1.1.0 |  | L10n EU OSS OCA
 
 [//]: # (end addons)
